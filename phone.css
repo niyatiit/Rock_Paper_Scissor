@@ -1,0 +1,45 @@
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size:6.5vw;
+    }
+    .images-part{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top:85px;
+        gap:2vw;
+    }
+    .img{
+        height:20vh;
+        width:50vw;  
+    }
+    img{
+        height:20vh;
+        width:60vw;
+        object-fit:cover;
+    }
+    .score{
+        position: relative;
+        top:120px;
+
+    }
+    .user-side h2{
+        font-size: 12vw;
+    }
+    .computer-side h2{
+        font-size: 12vw;
+    }
+    p{
+        font-size: 5vw;
+    }
+    .final_ans{
+        position: relative;
+        top:90px;
+        position: relative;
+    }
+    #message{
+        width:90%;
+        font-size: 8vw;
+    }
+}
